@@ -65,6 +65,6 @@ app.use((error, req, res, next) =>{
 
 
 
-let port =  process.env.PORT || 2300;
+let port =  process.env.PORT || 6500;
 
 app.listen(port, () => console.log(`################################################\n 🔥🛡️ Server listening on port: ${port} 🛡️🔥 \n################################################  \nKitu Kimepop`));
